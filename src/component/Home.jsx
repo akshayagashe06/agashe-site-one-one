@@ -24,6 +24,24 @@ class Home extends Component {
             <h3>Akshay</h3>
             <p>This is some text in a column</p>
           </Col>
+          <Col xs={12} sm={4} className="person-wrapper">
+            <Image
+              src="assets/MidtownAtlanta_.jpg"
+              circle
+              className="profile-pic"
+            />
+            <h3>Akshay</h3>
+            <p>This is some text in a column</p>
+          </Col>
+          <Col xs={12} sm={4} className="person-wrapper">
+            <Image
+              src="assets/MidtownAtlanta_.jpg"
+              circle
+              className="profile-pic"
+            />
+            <h3>Akshay</h3>
+            <p>This is some text in a column</p>
+          </Col>
         </Row>
       </Container>
     );
