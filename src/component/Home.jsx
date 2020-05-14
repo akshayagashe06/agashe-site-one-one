@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Jumbotron, Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./Home.css";
+import SocialColumn from "./SocialColumn.jsx";
 
 class Home extends Component {
   render() {
@@ -15,33 +16,9 @@ class Home extends Component {
           </Link>
         </Jumbotron>
         <Row className="show-grid text-center">
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image
-              src="assets/MidtownAtlanta_.jpg"
-              circle
-              className="profile-pic"
-            />
-            <h3>Akshay</h3>
-            <p>This is some text in a column</p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image
-              src="assets/MidtownAtlanta_.jpg"
-              circle
-              className="profile-pic"
-            />
-            <h3>Akshay</h3>
-            <p>This is some text in a column</p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image
-              src="assets/MidtownAtlanta_.jpg"
-              circle
-              className="profile-pic"
-            />
-            <h3>Akshay</h3>
-            <p>This is some text in a column</p>
-          </Col>
+          <SocialColumn />
+          <SocialColumn />
+          <SocialColumn />
         </Row>
       </Container>
     );
