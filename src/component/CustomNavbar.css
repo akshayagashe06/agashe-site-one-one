@@ -41,3 +41,8 @@ nav.navbar,
   color: white;
   background-color: transparent;
 }
+
+.btn-outline-dark {
+  color: white;
+  border-color: white;
+}
