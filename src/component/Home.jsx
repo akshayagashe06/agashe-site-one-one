@@ -20,9 +20,9 @@ class Home extends Component {
           </Link>
         </Jumbotron>
         <Row className="show-grid text-center">
-          <SocialColumn />
-          <SocialColumn />
-          <SocialColumn />
+          <SocialColumn name="LinkedIn" />
+          <SocialColumn name="Instagram" />
+          <SocialColumn name="Twitter" />
         </Row>
       </Container>
     );
