@@ -7,7 +7,11 @@ class SocialColumn extends Component {
   render(props) {
     return (
       <Col xs={12} sm={4} className="person-wrapper">
-        <Image src="assets/twitter-logo.png" circle className="profile-pic" />
+        <Image
+          src="assets/twitter-logo.png"
+          roundedCircle
+          className="profile-pic"
+        />
         <h3>Akshay</h3>
         <p>This is some text in a column</p>
       </Col>
