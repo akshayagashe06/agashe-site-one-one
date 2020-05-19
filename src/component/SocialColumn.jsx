@@ -8,7 +8,7 @@ class SocialColumn extends Component {
     return (
       <Col xs={12} sm={4} className="person-wrapper">
         <Image
-          src="assets/twitter-logo.png"
+          src="assets/instagram-logo.png"
           roundedCircle
           className="profile-pic"
         />
