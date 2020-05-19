@@ -13,8 +13,8 @@ class Home extends Component {
     return (
       <Container>
         <Jumbotron>
-          <h2>Welcome to my Website.</h2>
-          <p>Lets see how this webiste goes.</p>
+          <h2>This is all about me.</h2>
+          <p>Find my Blogs, love for software and cars here on my website.</p>
           <Link to="/about">
             <Button bsStyle="primary"> About</Button>
           </Link>
