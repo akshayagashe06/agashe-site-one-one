@@ -32,6 +32,14 @@ class News extends Component {
                 <Form.File.Input />
               </Form.File>
             </div>
+            <Form.Group controlId="exampleForm.ControlInput1">
+              <Form.Label>Enter your name</Form.Label>
+              <Form.Control type="email" placeholder="name@example.com" />
+            </Form.Group>
+            <Form.Group controlId="exampleForm.ControlTextarea1">
+              <Form.Label>Enter your story here</Form.Label>
+              <Form.Control as="textarea" rows="3" />
+            </Form.Group>
           </Form>
         </Container>
       </Jumbotron>
