@@ -8,7 +8,7 @@ class MyImageSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src="assets/MidtownAtlanta_.jpg"
             alt="My Photo"
           />
           <Carousel.Caption>
@@ -19,7 +19,7 @@ class MyImageSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src="assets/MidtownAtlanta_.jpg"
             alt="Third slide"
           />
 
@@ -31,7 +31,7 @@ class MyImageSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src="assets/MidtownAtlanta_.jpg"
             alt="Third slide"
           />
 
