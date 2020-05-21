@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Jumbotron, Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./Home.css";
 import SocialColumn from "./SocialColumn.jsx";
+import MyImageSlider from "./MyImageSlider.jsx";
 
 class Home extends Component {
   constructor(props) {
@@ -24,6 +25,7 @@ class Home extends Component {
           <SocialColumn name="Instagram" />
           <SocialColumn name="Twitter" />
         </Row>
+        <MyImageSlider />
       </Container>
     );
   }
