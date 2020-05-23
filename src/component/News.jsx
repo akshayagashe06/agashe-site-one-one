@@ -8,6 +8,7 @@ import {
   Button,
   Form,
 } from "react-bootstrap";
+import PhotoViewer from "./PhotoViewer.jsx";
 
 class News extends Component {
   render() {
@@ -41,6 +42,7 @@ class News extends Component {
               <Form.Control as="textarea" rows="3" />
             </Form.Group>
           </Form>
+          <PhotoViewer />
         </Container>
       </Jumbotron>
     );
