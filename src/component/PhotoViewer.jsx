@@ -45,7 +45,7 @@ class PhotoViewer extends Component {
         <Card>
           <Card.Img
             variant="top"
-            src="assets/MidtownAtlanta_.jpg"
+            src="assets/wp1902587.jpg"
             height="100"
             width="100"
           />
