@@ -46,3 +46,8 @@ nav.navbar,
   color: white;
   border-color: white;
 }
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+}
