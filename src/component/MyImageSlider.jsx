@@ -10,6 +10,7 @@ class MyImageSlider extends Component {
             className="d-block w-100"
             src="assets/MidtownAtlanta_.jpg"
             alt="My Photo"
+            height="500"
           />
           <Carousel.Caption>
             <h3>First slide label</h3>
@@ -20,7 +21,8 @@ class MyImageSlider extends Component {
           <img
             className="d-block w-100"
             src="assets/MidtownAtlanta_.jpg"
-            alt="Third slide"
+            alt="Second slide"
+            height="500"
           />
 
           <Carousel.Caption>
@@ -33,6 +35,7 @@ class MyImageSlider extends Component {
             className="d-block w-100"
             src="assets/MidtownAtlanta_.jpg"
             alt="Third slide"
+            height="500"
           />
 
           <Carousel.Caption>
