@@ -10,6 +10,7 @@ import {
 } from "react-bootstrap";
 import "./About.css";
 import MyImageSlider from "./MyImageSlider.jsx";
+import Footer from "./Footer.jsx";
 
 class About extends Component {
   render() {
@@ -30,6 +31,7 @@ class About extends Component {
             </Form.Group>
           </Form>
         </Jumbotron>
+        <Footer />
       </Container>
     );
   }
