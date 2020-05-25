@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { CardGroup, Card } from "react-bootstrap";
+import { CardGroup, Card, CardDeck } from "react-bootstrap";
 
 class PhotoViewer extends Component {
   render() {
     return (
-      <CardGroup>
+      <CardDeck>
         <Card>
           <Card.Img
             variant="top"
@@ -61,7 +61,7 @@ class PhotoViewer extends Component {
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-      </CardGroup>
+      </CardDeck>
     );
   }
 }
