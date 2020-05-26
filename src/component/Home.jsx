@@ -4,6 +4,7 @@ import { Jumbotron, Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./Home.css";
 import SocialColumn from "./SocialColumn.jsx";
 import MyImageSlider from "./MyImageSlider.jsx";
+import Footer from "./Footer.jsx";
 
 class Home extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class Home extends Component {
           <SocialColumn name="Twitter" />
         </Row>
         <MyImageSlider />
+        <Footer />
       </Container>
     );
   }
