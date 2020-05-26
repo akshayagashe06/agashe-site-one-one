@@ -11,6 +11,7 @@ import {
 import "./About.css";
 import MyImageSlider from "./MyImageSlider.jsx";
 import Footer from "./Footer.jsx";
+import PhotoViewer from "./PhotoViewer.jsx";
 
 class About extends Component {
   render() {
@@ -18,6 +19,7 @@ class About extends Component {
       <Container>
         <MyImageSlider />
         <Jumbotron>
+          <PhotoViewer />
           <Form>
             <Form.Group controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
