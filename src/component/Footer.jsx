@@ -7,17 +7,15 @@ class Footer extends Component {
       <Card bg="dark" text="white">
         <Card.Body>
           <Row>
+            <Col xs={12} sm={4} className="person-wrapper"></Col>
             <Col xs={12} sm={4} className="person-wrapper">
               <h3>Akshay</h3>
               <p>This is some text in a column</p>
             </Col>
             <Col xs={12} sm={4} className="person-wrapper">
-              <h3>Akshay</h3>
-              <p>This is some text in a column</p>
-            </Col>
-            <Col xs={12} sm={4} className="person-wrapper">
-              <h3>Akshay</h3>
-              <p>This is some text in a column</p>
+              <h3>Helpful links</h3>
+              <h6>Formula One</h6>
+              <h6>Cricket</h6>
             </Col>
           </Row>
         </Card.Body>
