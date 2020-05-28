@@ -1,11 +1,26 @@
 import React, { Component } from "react";
-import { Card } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 
 class Footer extends Component {
   render() {
     return (
       <Card bg="dark" text="white">
-        <Card.Body>This is some text within a card body.</Card.Body>
+        <Card.Body>
+          <Row>
+            <Col xs={12} sm={4} className="person-wrapper">
+              <h3>Akshay</h3>
+              <p>This is some text in a column</p>
+            </Col>
+            <Col xs={12} sm={4} className="person-wrapper">
+              <h3>Akshay</h3>
+              <p>This is some text in a column</p>
+            </Col>
+            <Col xs={12} sm={4} className="person-wrapper">
+              <h3>Akshay</h3>
+              <p>This is some text in a column</p>
+            </Col>
+          </Row>
+        </Card.Body>
       </Card>
     );
   }
