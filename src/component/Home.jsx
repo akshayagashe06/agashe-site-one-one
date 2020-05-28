@@ -13,16 +13,18 @@ class Home extends Component {
 
   render() {
     return (
-      <Container>
-        <Image src="assets/MidtownAtlanta_.jpg" fluid />
-        <Row className="show-grid text-center">
-          <SocialColumn name="LinkedIn" />
-          <SocialColumn name="Instagram" />
-          <SocialColumn name="Twitter" />
-        </Row>
-        <MyImageSlider />
+      <div>
+        <Container>
+          <Image src="assets/MidtownAtlanta_.jpg" fluid />
+          <Row className="show-grid text-center">
+            <SocialColumn name="LinkedIn" />
+            <SocialColumn name="Instagram" />
+            <SocialColumn name="Twitter" />
+          </Row>
+          <MyImageSlider />
+        </Container>
         <Footer />
-      </Container>
+      </div>
     );
   }
 }
