@@ -14,13 +14,7 @@ class Home extends Component {
   render() {
     return (
       <Container>
-        <Jumbotron>
-          <h2>This is all about me.</h2>
-          <p>Find my Blogs, love for software and cars here on my website.</p>
-          <Link to="/about">
-            <Button bsStyle="primary"> About</Button>
-          </Link>
-        </Jumbotron>
+        <Image src="assets/MidtownAtlanta_.jpg" fluid />
         <Row className="show-grid text-center">
           <SocialColumn name="LinkedIn" />
           <SocialColumn name="Instagram" />
