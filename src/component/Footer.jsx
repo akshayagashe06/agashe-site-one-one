@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Row, ButtonGroup, Button } from "react-bootstrap";
 
 class Footer extends Component {
   render() {
@@ -11,6 +11,11 @@ class Footer extends Component {
               <h3>Important Links</h3>
               <h6>News</h6>
               <h6>About</h6>
+              <ButtonGroup className="mb-2">
+                <Button>Left</Button>
+                <Button>Middle</Button>
+                <Button>Right</Button>
+              </ButtonGroup>
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3>My projects</h3>
