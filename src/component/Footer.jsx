@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Card, Col, Row, ButtonGroup, Button } from "react-bootstrap";
+import "./Home.css";
 
 class Footer extends Component {
   render() {
