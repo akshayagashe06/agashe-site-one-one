@@ -15,7 +15,7 @@ class Home extends Component {
     return (
       <div>
         <Container>
-          <Image src="assets/MidtownAtlanta_.jpg" fluid />
+          <Image src="assets/home-banner.jpeg" fluid />
           <Row className="show-grid text-center">
             <SocialColumn name="LinkedIn" />
             <SocialColumn name="Instagram" />
