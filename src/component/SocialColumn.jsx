@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col, Image } from "react-bootstrap";
 import data from "../data/SocialMediaData.js";
+import "./Home.css";
 
 class SocialColumn extends Component {
   render(props) {
@@ -12,7 +13,7 @@ class SocialColumn extends Component {
           roundedCircle
           className="profile-pic"
         />
-        <h3>Akshay</h3>
+        <h3 class="socialMedia-header-style">Akshay</h3>
         <p>This is some text in a column</p>
       </Col>
     );
