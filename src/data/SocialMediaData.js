@@ -1,4 +1,4 @@
-var data = {
+{
   socialMediaData: [
     {
       name: "LinkedIn",
@@ -18,5 +18,5 @@ var data = {
         "My personal photo library which I would like to share with you.",
       image: "../public/assets/instagram-logo.png",
     },
-  ],
-};
+  ];
+}
