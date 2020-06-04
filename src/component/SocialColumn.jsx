@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col, Image } from "react-bootstrap";
-import data from "../data/SocialMediaData.js";
+import data from "../data/SocialMediaData.json";
 import "./Home.css";
 
 class SocialColumn extends Component {

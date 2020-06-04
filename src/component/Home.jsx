@@ -1,10 +1,22 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Jumbotron, Container, Row, Col, Image, Button } from "react-bootstrap";
+import {
+  Jumbotron,
+  Container,
+  Row,
+  Col,
+  Image,
+  Button,
+  li,
+  ul,
+} from "react-bootstrap";
 import "./Home.css";
 import SocialColumn from "./SocialColumn.jsx";
 import MyImageSlider from "./MyImageSlider.jsx";
 import Footer from "./Footer.jsx";
+
+import data from "../data/SocialMediaData.json";
+var social = data.socialMediaData;
 
 class Home extends Component {
   constructor(props) {
