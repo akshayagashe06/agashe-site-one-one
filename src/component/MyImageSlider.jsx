@@ -13,8 +13,10 @@ class MyImageSlider extends Component {
             height="500"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Ferrari California</h3>
+            <p>
+              This is my favourite car. The Ferrari design at its very best.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -26,8 +28,8 @@ class MyImageSlider extends Component {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Porsche 911</h3>
+            <p>The handling in the Porsche is the one to enjoy.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,10 +41,8 @@ class MyImageSlider extends Component {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Porsche Macan</h3>
+            <p>Prosche Engineering with its practicality and power.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
