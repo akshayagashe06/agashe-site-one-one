@@ -32,7 +32,23 @@ h3 {
 }
 
 .insta-button-cls {
-  background-image: url("https://store-images.s-microsoft.com/image/apps.58521.13510798887167234.713cc0e4-e4a7-4f7c-8cde-9c6a53872b1d.539a5fdf-76a3-486f-bb0f-d2dce82923cc?mode=scale&q=90&h=200&w=200&background=%230078D7");
+  background-image: url("https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square1-512.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.twitter-button-cls {
+  background-image: url("https://pbs.twimg.com/profile_images/875135141135302656/eiM2Wz66_400x400.jpg");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+}
+
+.linkedin-button-cls {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png");
   background-size: cover;
   width: 30px;
   height: 30px;

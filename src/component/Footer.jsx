@@ -14,8 +14,8 @@ class Footer extends Component {
               <h6>About</h6>
               <ButtonGroup className="mb-2">
                 <Button className="insta-button-cls"></Button>
-                <Button>Middle</Button>
-                <Button>Right</Button>
+                <Button className="twitter-button-cls"></Button>
+                <Button className="linkedin-button-cls"></Button>
               </ButtonGroup>
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
