@@ -30,3 +30,11 @@ h3 {
   margin-bottom: 1em;
   margin-bottom: 2%;
 }
+
+.insta-button-cls {
+  background-image: url("https://store-images.s-microsoft.com/image/apps.58521.13510798887167234.713cc0e4-e4a7-4f7c-8cde-9c6a53872b1d.539a5fdf-76a3-486f-bb0f-d2dce82923cc?mode=scale&q=90&h=200&w=200&background=%230078D7");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+}

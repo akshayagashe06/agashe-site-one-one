@@ -13,7 +13,7 @@ class Footer extends Component {
               <h6>News</h6>
               <h6>About</h6>
               <ButtonGroup className="mb-2">
-                <Button>Left</Button>
+                <Button className="insta-button-cls"></Button>
                 <Button>Middle</Button>
                 <Button>Right</Button>
               </ButtonGroup>
