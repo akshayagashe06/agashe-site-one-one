@@ -20,9 +20,9 @@ class Footer extends Component {
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">My projects</h3>
-              <h6>Project 1</h6>
-              <h6>Project 2</h6>
-              <h6>Project 3</h6>
+              <h6>Automated Society Billing</h6>
+              <h6>Amazon MWS-Tally</h6>
+              <h6>Job Search from Web Semantic</h6>
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">Helpful links</h3>
