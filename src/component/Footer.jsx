@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Card, Col, Row, ButtonGroup, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 class Footer extends Component {
@@ -10,8 +11,12 @@ class Footer extends Component {
           <Row>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">Important Links</h3>
-              <h6>News</h6>
-              <h6>About</h6>
+              <h6>
+                <Link to="/news">News</Link>
+              </h6>
+              <h6>
+                <Link to="/about">About</Link>
+              </h6>
               <ButtonGroup className="mb-2">
                 <Button className="insta-button-cls"></Button>
                 <Button className="twitter-button-cls"></Button>
