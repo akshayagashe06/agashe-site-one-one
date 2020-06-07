@@ -6,7 +6,7 @@ import "./Home.css";
 class Footer extends Component {
   render() {
     return (
-      <Card bg="dark" text="white">
+      <Card bg="dark" text="white" className="footer-mainCard">
         <Card.Body>
           <Row>
             <Col xs={12} sm={3} className="person-wrapper">

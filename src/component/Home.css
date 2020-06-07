@@ -54,3 +54,9 @@ h3 {
   height: 30px;
   font-size: 2rem;
 }
+
+.footer-mainCard {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
