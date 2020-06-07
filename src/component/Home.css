@@ -60,3 +60,12 @@ h3 {
   border: none;
   border-radius: 0;
 }
+
+.footer-link {
+  color: white;
+  background-color: transparent;
+}
+
+.footer-link:hover {
+  color: white;
+}

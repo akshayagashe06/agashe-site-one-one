@@ -12,10 +12,14 @@ class Footer extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">Important Links</h3>
               <h6>
-                <Link to="/news">News</Link>
+                <Link className="footer-link" to="/news">
+                  News
+                </Link>
               </h6>
               <h6>
-                <Link to="/about">About</Link>
+                <Link className="footer-link" to="/about">
+                  About
+                </Link>
               </h6>
               <ButtonGroup className="mb-2">
                 <Button className="insta-button-cls"></Button>
