@@ -8,7 +8,7 @@ import {
   Button,
   Form,
 } from "react-bootstrap";
-import "./About.css";
+import "./Home.css";
 import MyImageSlider from "./MyImageSlider.jsx";
 import Footer from "./Footer.jsx";
 import PhotoViewer from "./PhotoViewer.jsx";

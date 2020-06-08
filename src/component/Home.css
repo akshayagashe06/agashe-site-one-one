@@ -69,3 +69,67 @@ h3 {
 .footer-link:hover {
   color: white;
 }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  max-width: 100%;
+}
+
+/* Navbar CSS */
+nav.navbar,
+.navbar-default {
+  background-color: #4a6fd6 !important;
+}
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.btn-outline-dark {
+  color: white;
+  border-color: white;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+}
