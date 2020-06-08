@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col, Image } from "react-bootstrap";
 import data from "../data/SocialMediaData.json";
-import "./Home.css";
+import "./Common-style.css";
 
 class SocialColumn extends Component {
   render(props) {

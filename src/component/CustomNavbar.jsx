@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Nav, Navbar, Form, Button, FormControl } from "react-bootstrap";
-import "./Home.css";
+import "./Common-style.css";
 
 class CustomNavbar extends Component {
   render() {

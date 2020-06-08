@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Card, Col, Row, ButtonGroup, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./Home.css";
+import "./Common-style.css";
 
 class Footer extends Component {
   render() {
