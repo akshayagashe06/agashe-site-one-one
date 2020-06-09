@@ -20,6 +20,7 @@ class About extends Component {
         <MyImageSlider />
         <Jumbotron>
           <PhotoViewer />
+          <section className="splitter-section" />
           <Form>
             <Form.Group controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>

@@ -133,3 +133,9 @@ nav.navbar,
   position: sticky;
   top: 0;
 }
+
+.splitter-section {
+  height: 1em;
+  border-top: rgb(40, 99, 109) solid;
+  margin-top: 1em;
+}
