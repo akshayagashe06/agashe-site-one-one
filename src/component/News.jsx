@@ -17,8 +17,8 @@ class News extends Component {
       <div>
         <Jumbotron>
           <Container>
-            <h3>Tell your story!</h3>
-            <Form>
+            <Form className="form-style">
+              <h3>Tell your story!</h3>
               <div className="mb-3">
                 <Form.File id="formcheck-api-custom" custom>
                   <Form.File.Input isValid />
@@ -45,7 +45,6 @@ class News extends Component {
                 <Form.Control as="textarea" rows="3" />
               </Form.Group>
             </Form>
-            <section className="splitter-section" />
             <h3>Some other stories just like yours!</h3>
             <PhotoViewer />
           </Container>

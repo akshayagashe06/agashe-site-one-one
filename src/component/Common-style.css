@@ -136,6 +136,12 @@ nav.navbar,
 
 .splitter-section {
   height: 1em;
-  border-top: rgb(40, 99, 109) solid;
+  border-top: black solid thin;
   margin-top: 1em;
+}
+
+.form-style {
+  border: black solid thin;
+  padding: 1em;
+  margin-bottom: 1em;
 }
