@@ -22,7 +22,7 @@ class About extends Component {
           <Jumbotron>
             <PhotoViewer />
             <section className="splitter-section" />
-            <Form>
+            <Form className="form-style">
               <h3>Write your mind out!</h3>
               <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Label>Email address</Form.Label>
