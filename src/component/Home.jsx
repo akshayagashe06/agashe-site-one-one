@@ -18,6 +18,7 @@ class Home extends Component {
     return (
       <div>
         <Image src="assets/home-banner.jpeg" fluid />
+        <section className="splitter-section" />
         <Container>
           <Row className="show-grid text-center">
             <SocialColumn name="LinkedIn" />
