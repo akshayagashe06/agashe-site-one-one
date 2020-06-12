@@ -19,7 +19,9 @@ class About extends Component {
       <div>
         <Container>
           <MyImageSlider />
-          <Jumbotron>
+          <Jumbotron className="jumbotron-sizing">
+            <section className="splitter-section" />
+            <h3>Somethings that I like!</h3>
             <PhotoViewer />
             <section className="splitter-section" />
             <Form className="form-style">
