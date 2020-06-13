@@ -5,11 +5,6 @@ import data from "../data/SocialMediaData.json";
 import "./Common-style.css";
 
 class SocialColumn extends Component {
-  sampleJSON = {
-    string: "PluralSight",
-    number: 1,
-  };
-
   render(props) {
     return (
       <Col xs={12} sm={4} className="person-wrapper">
@@ -18,6 +13,7 @@ class SocialColumn extends Component {
             <Image src={name1.image} roundedCircle className="profile-pic" />
             <h3 class="socialMedia-header-style">{name1.name}</h3>
             <p>{name1.Description}</p>
+            <p>{this.props.name}</p>
           </div>
         ))}
       </Col>
