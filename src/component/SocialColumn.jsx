@@ -5,6 +5,11 @@ import data from "../data/SocialMediaData.json";
 import "./Common-style.css";
 
 class SocialColumn extends Component {
+  sampleJSON = {
+    string: "PluralSight",
+    number: 1,
+  };
+
   render(props) {
     return (
       <Col xs={12} sm={4} className="person-wrapper">
@@ -13,8 +18,12 @@ class SocialColumn extends Component {
           roundedCircle
           className="profile-pic"
         />
-        <h3 class="socialMedia-header-style">Akshay</h3>
-        <p>This is some text in a column</p>
+        {data.socialMediaData.map((name1, index) => (
+          <div>
+            <h3 class="socialMedia-header-style">{name1.name}</h3>
+            <p>{name1.Description}</p>
+          </div>
+        ))}
       </Col>
     );
   }
