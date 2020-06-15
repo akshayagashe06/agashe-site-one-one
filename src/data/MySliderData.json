@@ -1,0 +1,18 @@
+{
+  "HomePageSlider": [
+    {
+      "name": "RAIT",
+      "title": "RAIT Nerul",
+      "Description": "This is where the epic journey began. It shaped my personality and my character.",
+      "image": "../assets/dy-patil.png"
+    },
+    {
+      "name": "UGA",
+      "title": "UGA Athens",
+      "Description": "The place which made me strong. It have me wings to fly and taught me to achieve things that I had only dreamt of.",
+      "image": "../assets/uga-arch.png"
+    }
+  ],
+
+  "AboutPageSlider": []
+}
