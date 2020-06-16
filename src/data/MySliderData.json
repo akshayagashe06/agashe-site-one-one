@@ -14,5 +14,24 @@
     }
   ],
 
-  "AboutPageSlider": []
+  "AboutPageSlider": [
+    {
+      "name": "Drive",
+      "title": "Long Drives",
+      "Description": "Passion for cars and driving my car for a long trip gives immence satisfaction.",
+      "image": "../assets/dy-patil.png"
+    },
+    {
+      "name": "Travel",
+      "title": "Travel to explore",
+      "Description": "Exploring countryside and being with nature is my weekend routine.",
+      "image": "../assets/uga-arch.png"
+    },
+    {
+      "name": "Cricket",
+      "title": "Best sport in the world.",
+      "Description": "The adrelenine and the excitement of the sport is the one I never miss.",
+      "image": "../assets/uga-arch.png"
+    }
+  ]
 }
