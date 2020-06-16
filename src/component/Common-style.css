@@ -140,6 +140,11 @@ nav.navbar,
   margin-top: 1em;
 }
 
+.splitter-section-no-border {
+  height: 1em;
+  margin-top: 1em;
+}
+
 .form-style {
   border: black solid thin;
   padding: 1em;

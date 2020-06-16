@@ -20,10 +20,10 @@ class About extends Component {
         <Container>
           <MyImageSlider />
           <Jumbotron className="jumbotron-sizing">
-            <section className="splitter-section" />
+            <section className="splitter-section-no-border" />
             <h3>Somethings that I like!</h3>
             <PhotoViewer />
-            <section className="splitter-section" />
+            <section className="splitter-section-no-border" />
             <Form className="form-style">
               <h3>Write your mind out!</h3>
               <Form.Group controlId="exampleForm.ControlInput1">
