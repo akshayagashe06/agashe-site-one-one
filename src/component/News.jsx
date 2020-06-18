@@ -44,6 +44,9 @@ class News extends Component {
                 <Form.Label>Enter your story here</Form.Label>
                 <Form.Control as="textarea" rows="3" />
               </Form.Group>
+              <Button variant="primary" type="submit">
+                Submit
+              </Button>
             </Form>
             <h3>Some other stories just like yours!</h3>
             <PhotoViewer />
