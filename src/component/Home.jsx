@@ -17,7 +17,10 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Image src="assets/home-banner.jpeg" fluid />
+        <div className="banner-container">
+          <Image src="assets/home-banner.jpeg" fluid />
+          <div className="banner-centered">Agashe Website!</div>
+        </div>
         <section className="splitter-section" />
         <Container>
           <Row className="show-grid text-center">
