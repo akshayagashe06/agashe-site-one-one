@@ -36,6 +36,9 @@ class About extends Component {
                 </Form.Label>
                 <Form.Control as="textarea" rows="3" />
               </Form.Group>
+              <Button variant="primary" type="submit">
+                Submit
+              </Button>
             </Form>
           </Jumbotron>
         </Container>
