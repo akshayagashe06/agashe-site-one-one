@@ -40,8 +40,7 @@ class Footer extends Component {
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">Contact</h3>
-              <h6>Email</h6>
-              <h6>Phone</h6>
+              <h6>Email - akshay_agashe@yahoo.com</h6>
             </Col>
           </Row>
         </Card.Body>
