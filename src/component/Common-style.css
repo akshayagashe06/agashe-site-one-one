@@ -1,5 +1,6 @@
 .jumbotron {
   margin-bottom: 0em;
+  background-color: #474748;
 }
 .person-wrapper {
   margin-bottom: 2em;
@@ -172,6 +173,4 @@ nav.navbar,
 
 .container {
   background-color: #1a1a1b;
-  /* --background: #1a1a1b;
-  --canvas: #030303; */
 }
