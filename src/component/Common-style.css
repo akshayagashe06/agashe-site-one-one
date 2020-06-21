@@ -14,7 +14,7 @@
   background-image: none;
   border: none;
   border-radius: 0;
-  background-color: #4a6fd6;
+  background-color: #f8c51c;
 }
 
 h3 {
@@ -83,7 +83,7 @@ h3 {
 /* Navbar CSS */
 nav.navbar,
 .navbar-default {
-  background-color: #4a6fd6 !important;
+  background-color: #f8c51c !important;
 }
 
 .navbar-default {
@@ -93,7 +93,7 @@ nav.navbar,
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: black;
 }
 
 .navbar-default .navbar-brand {
@@ -123,6 +123,10 @@ nav.navbar,
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
   background-color: transparent;
+}
+
+.navbar-dark .navbar-brand {
+  color: black;
 }
 
 .btn-outline-dark {
