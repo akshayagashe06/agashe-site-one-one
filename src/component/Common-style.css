@@ -176,9 +176,19 @@ nav.navbar,
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 150px;
-  color: whitesmoke;
+  color: black;
 }
 
 .container {
   background-color: #1a1a1b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
 }
