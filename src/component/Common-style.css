@@ -129,6 +129,10 @@ nav.navbar,
   color: black;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
 .btn-outline-dark {
   color: white;
   border-color: white;
