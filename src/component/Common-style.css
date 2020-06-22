@@ -196,3 +196,7 @@ p {
 .card-body {
   background-color: grey;
 }
+
+label {
+  color: white;
+}
