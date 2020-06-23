@@ -156,9 +156,10 @@ nav.navbar,
 }
 
 .form-style {
-  border: black solid thin;
+  border: white solid thin;
   padding: 1em;
   margin-bottom: 1em;
+  padding: 2em;
 }
 
 .jumbotron-sizing {
@@ -182,6 +183,7 @@ nav.navbar,
 
 .container {
   background-color: #1a1a1b;
+  padding: 2em;
 }
 
 h1,
