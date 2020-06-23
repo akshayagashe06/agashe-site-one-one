@@ -23,12 +23,14 @@ class Home extends Component {
         </div>
         <section className="splitter-section" />
         <Container>
-          <Row className="show-grid text-center">
-            <SocialColumn name="LinkedIn" />
-            <SocialColumn name="Instagram" />
-            <SocialColumn name="Twitter" />
-          </Row>
-          <MyImageSlider />
+          <Jumbotron>
+            <Row className="show-grid text-center">
+              <SocialColumn name="LinkedIn" />
+              <SocialColumn name="Instagram" />
+              <SocialColumn name="Twitter" />
+            </Row>
+            <MyImageSlider />
+          </Jumbotron>
         </Container>
         <Footer />
       </div>
