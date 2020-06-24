@@ -12,6 +12,8 @@ import "./Common-style.css";
 import MyImageSlider from "./MyImageSlider.jsx";
 import Footer from "./Footer.jsx";
 import PhotoViewer from "./PhotoViewer.jsx";
+import data from "../data/MySliderData.json";
+var myHobbiesData = data.HomePageSlider;
 
 class About extends Component {
   render() {
