@@ -7,7 +7,10 @@ import MyImageSlider from "./MyImageSlider.jsx";
 import Footer from "./Footer.jsx";
 
 import data from "../data/SocialMediaData.json";
+import data1 from "../data/MySliderData.json";
+
 var social = data.socialMediaData;
+var myFavPlaces = data1.HomePageSlider;
 
 class Home extends Component {
   constructor(props) {
