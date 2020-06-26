@@ -8,7 +8,7 @@ class MyImageSlider extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="assets/MidtownAtlanta_.jpg"
+            src="assets/porsche-911.jpg"
             alt="My Photo"
             height="500"
           />
