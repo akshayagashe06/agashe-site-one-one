@@ -197,7 +197,7 @@ p {
 }
 
 .card-body {
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.952);
 }
 
 label {
