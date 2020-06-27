@@ -32,9 +32,9 @@ class Home extends Component {
               <SocialColumn name="Instagram" />
               <SocialColumn name="Twitter" />
             </Row>
-            <MyImageSlider />
           </Jumbotron>
         </Container>
+        <MyImageSlider />
         <Footer />
       </div>
     );
