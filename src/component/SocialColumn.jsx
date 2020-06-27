@@ -13,7 +13,13 @@ class SocialColumn extends Component {
           .filter((mediaName) => mediaName.name == clickedButton)
           .map((name1, index) => (
             <div>
-              <Image src={name1.image} roundedCircle className="profile-pic" />
+              <Image
+                src={name1.image}
+                roundedCircle
+                className="profile-pic"
+                height="200"
+                width="200"
+              />
               <h3 class="socialMedia-header-style">{name1.name}</h3>
               <p>{name1.Description}</p>
               <p>{this.props.name}</p>
