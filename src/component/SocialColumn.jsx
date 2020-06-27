@@ -22,7 +22,6 @@ class SocialColumn extends Component {
               />
               <h3 class="socialMedia-header-style">{name1.name}</h3>
               <p>{name1.Description}</p>
-              <p>{this.props.name}</p>
             </div>
           ))}
       </Col>
