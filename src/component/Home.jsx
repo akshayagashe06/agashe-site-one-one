@@ -24,7 +24,6 @@ class Home extends Component {
           <Image src="assets/home-banner.jpeg" fluid />
           <div className="banner-centered">Agashe Website!</div>
         </div>
-        <section className="splitter-section" />
         <Container>
           <Jumbotron>
             <Row className="show-grid text-center">
