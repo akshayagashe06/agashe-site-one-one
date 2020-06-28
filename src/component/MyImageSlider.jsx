@@ -4,20 +4,19 @@ import data from "../data/MySliderData.json";
 
 class MyImageSlider extends Component {
   render() {
-    var clickedButton = this.props.name;
     return (
       <Carousel>
-        {data.HomePageSlider.map((name1, index) => (
+        {data.HomePageSlider.map((myUniversity, index) => (
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={name1.image}
+              src={myUniversity.image}
               alt="My Photo"
               height="500"
             />
             <Carousel.Caption>
-              <h3>{name1.title}</h3>
-              <p>{name1.Description}</p>
+              <h3>{myUniversity.title}</h3>
+              <p>{myUniversity.Description}</p>
             </Carousel.Caption>
           </Carousel.Item>
         ))}
