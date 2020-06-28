@@ -10,17 +10,17 @@ class SocialColumn extends Component {
       <Col xs={12} sm={4} className="person-wrapper">
         {data.socialMediaData
           .filter((mediaName) => mediaName.name == this.props.name)
-          .map((name1) => (
+          .map((MySocialHandler) => (
             <div>
               <Image
-                src={name1.image}
+                src={MySocialHandler.image}
                 roundedCircle
                 className="profile-pic"
                 height="200"
                 width="200"
               />
-              <h3 class="socialMedia-header-style">{name1.name}</h3>
-              <p>{name1.Description}</p>
+              <h3 class="socialMedia-header-style">{MySocialHandler.name}</h3>
+              <p>{MySocialHandler.Description}</p>
             </div>
           ))}
       </Col>
