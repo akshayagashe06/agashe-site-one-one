@@ -1,50 +1,26 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import data from "../data/MySliderData.json";
 
 class MyImageSlider extends Component {
   render() {
+    var clickedButton = this.props.name;
     return (
       <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="assets/porsche-911.jpg"
-            alt="My Photo"
-            height="500"
-          />
-          <Carousel.Caption>
-            <h3>Ferrari California</h3>
-            <p>
-              This is my favourite car. The Ferrari design at its very best.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="assets/MidtownAtlanta_.jpg"
-            alt="Second slide"
-            height="500"
-          />
-
-          <Carousel.Caption>
-            <h3>Porsche 911</h3>
-            <p>The handling in the Porsche is the one to enjoy.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="assets/MidtownAtlanta_.jpg"
-            alt="Third slide"
-            height="500"
-          />
-
-          <Carousel.Caption>
-            <h3>Porsche Macan</h3>
-            <p>Prosche Engineering with its practicality and power.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
+        {data.HomePageSlider.map((name1, index) => (
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={name1.image}
+              alt="My Photo"
+              height="500"
+            />
+            <Carousel.Caption>
+              <h3>{name1.title}</h3>
+              <p>{name1.Description}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
       </Carousel>
     );
   }
