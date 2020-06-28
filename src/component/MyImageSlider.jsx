@@ -6,12 +6,12 @@ class MyImageSlider extends Component {
   render() {
     return (
       <Carousel>
-        {data.HomePageSlider.map((myUniversity, index) => (
+        {data.HomePageSlider.map((myUniversity) => (
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={myUniversity.image}
-              alt="My Photo"
+              alt={myUniversity.name}
               height="500"
             />
             <Carousel.Caption>

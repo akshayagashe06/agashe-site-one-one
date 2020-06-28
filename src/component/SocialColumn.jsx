@@ -6,12 +6,11 @@ import "./Common-style.css";
 
 class SocialColumn extends Component {
   render(props) {
-    var clickedButton = this.props.name;
     return (
       <Col xs={12} sm={4} className="person-wrapper">
         {data.socialMediaData
-          .filter((mediaName) => mediaName.name == clickedButton)
-          .map((name1, index) => (
+          .filter((mediaName) => mediaName.name == this.props.name)
+          .map((name1) => (
             <div>
               <Image
                 src={name1.image}
