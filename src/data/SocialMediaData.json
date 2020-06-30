@@ -2,17 +2,17 @@
   "socialMediaData": [
     {
       "name": "LinkedIn",
-      "Description": "This is where you can find about all my projects, my professional experience, my interest in technology and a lots more.",
+      "Description": "Believe it or not, this is my most used social media platform. I like to spend hours looking at projects and ideas that people share. Simple idea brining about changes in the society is what inspires me the most.",
       "image": "../assets/linkedin-logo.png"
     },
     {
       "name": "Twitter",
-      "Description": "This is where you can find me talk and explore my hobbies and latest news. Especially my love for F1 and cricker.",
+      "Description": "My news feed social media. Reading opinions from people about the current trends keeps me up to date here. Some good news with a mix of epic sarcasm is a mix of tweets I enjoy the most.",
       "image": "../assets/twitter-logo.png"
     },
     {
       "name": "Instagram",
-      "Description": "My personal photo library which I would like to share with you.",
+      "Description": "I just love to watch good photography. This keeps me upto date with updates from my friend list. Amazing photography is what I love most. I am also a avid foodie and everytime I tune in to my account my appetite shoots up with yummy photos all over.",
       "image": "../assets/instagram-logo.jpg"
     }
   ]
