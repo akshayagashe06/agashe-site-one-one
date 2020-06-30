@@ -19,7 +19,7 @@ class SocialColumn extends Component {
                 height="200"
                 width="200"
               />
-              <h3 class="socialMedia-header-style">{MySocialHandler.name}</h3>
+              <h2 class="socialMedia-header-style">{MySocialHandler.name}</h2>
               <p>{MySocialHandler.Description}</p>
             </div>
           ))}
