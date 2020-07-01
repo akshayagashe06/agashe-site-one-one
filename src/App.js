@@ -16,6 +16,13 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/news" component={News} />
+        <Route
+          path="/youtube-route"
+          component={() => {
+            window.location.href = "https://youtube.com";
+            return null;
+          }}
+        />
       </div>
     </Router>
   );
