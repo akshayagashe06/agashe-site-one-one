@@ -35,9 +35,15 @@ class Footer extends Component {
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">My projects</h3>
-              <h6>Automated Society Billing</h6>
+              <h6>
+                <Link to="/git-society-route">Automated Society Billing</Link>
+              </h6>
               <h6>Amazon MWS-Tally</h6>
-              <h6>Job Search from Web Semantic</h6>
+              <h6>
+                <Link to="git-jobSearch-route">
+                  Job Search from Web Semantic
+                </Link>
+              </h6>
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">Helpful links</h3>

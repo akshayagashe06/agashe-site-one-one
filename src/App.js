@@ -37,6 +37,21 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path="/git-society-route"
+          component={() => {
+            window.location.href = "https://github.com/akshayagashe06/Society";
+            return null;
+          }}
+        />
+        <Route
+          path="/git-jobSearch-route"
+          component={() => {
+            window.location.href =
+              "https://github.com/glagarwal/semantic-job-search";
+            return null;
+          }}
+        />
       </div>
     </Router>
   );
