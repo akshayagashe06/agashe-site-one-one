@@ -23,6 +23,20 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path="/insta-route"
+          component={() => {
+            window.location.href = "https://instagram.com";
+            return null;
+          }}
+        />
+        <Route
+          path="/twitter-route"
+          component={() => {
+            window.location.href = "https://twitter.com";
+            return null;
+          }}
+        />
       </div>
     </Router>
   );
