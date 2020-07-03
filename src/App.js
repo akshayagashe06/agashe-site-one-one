@@ -17,9 +17,9 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/news" component={News} />
         <Route
-          path="/youtube-route"
+          path="/linkedin-route"
           component={() => {
-            window.location.href = "https://youtube.com";
+            window.location.href = "https://linkedin.com";
             return null;
           }}
         />

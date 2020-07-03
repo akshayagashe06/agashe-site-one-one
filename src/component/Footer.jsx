@@ -22,9 +22,15 @@ class Footer extends Component {
                 </Link>
               </h6>
               <ButtonGroup className="mb-2">
-                <Button className="insta-button-cls"></Button>
-                <Button className="twitter-button-cls"></Button>
-                <Button className="linkedin-button-cls"></Button>
+                <Link to="/insta-route">
+                  <Button className="insta-button-cls"></Button>
+                </Link>
+                <Link to="/twitter-route">
+                  <Button className="twitter-button-cls"></Button>
+                </Link>
+                <Link to="/linkedin-route">
+                  <Button className="linkedin-button-cls"></Button>
+                </Link>
               </ButtonGroup>
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
