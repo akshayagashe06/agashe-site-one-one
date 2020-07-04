@@ -19,21 +19,22 @@ function App() {
         <Route
           path="/linkedin-route"
           component={() => {
-            window.location.href = "https://linkedin.com";
+            window.location.href =
+              "https://www.linkedin.com/in/akshay-agashe06/";
             return null;
           }}
         />
         <Route
           path="/insta-route"
           component={() => {
-            window.location.href = "https://instagram.com";
+            window.location.href = "https://www.instagram.com/i.m.agashe/";
             return null;
           }}
         />
         <Route
           path="/twitter-route"
           component={() => {
-            window.location.href = "https://twitter.com";
+            window.location.href = "https://twitter.com/superakki";
             return null;
           }}
         />
