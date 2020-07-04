@@ -52,6 +52,20 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path="/formula1-route"
+          component={() => {
+            window.location.href = "https://formula1.com";
+            return null;
+          }}
+        />
+        <Route
+          path="/cricbuzz-route"
+          component={() => {
+            window.location.href = "https://cricbuzz.com";
+            return null;
+          }}
+        />
       </div>
     </Router>
   );

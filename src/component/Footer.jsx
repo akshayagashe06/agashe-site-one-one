@@ -49,8 +49,16 @@ class Footer extends Component {
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">Helpful links</h3>
-              <h6>Formula One</h6>
-              <h6>Cricket</h6>
+              <h6>
+                <Link className="footer-link" to="formula1-route">
+                  Formula One
+                </Link>
+              </h6>
+              <h6>
+                <Link className="footer-link" to="cricbuzz-route">
+                  Cricket
+                </Link>
+              </h6>
             </Col>
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">Contact</h3>
