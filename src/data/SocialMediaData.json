@@ -3,17 +3,20 @@
     {
       "name": "LinkedIn",
       "Description": "Believe it or not, this is my most used social media platform. I like to spend hours looking at projects and ideas that people share. Simple idea brining about changes in the society is what inspires me the most.",
-      "image": "../assets/linkedin-logo.png"
+      "image": "../assets/linkedin-logo.png",
+      "route": "/linkedin-route"
     },
     {
       "name": "Twitter",
       "Description": "My news feed social media. Reading opinions from people about the current trends keeps me up to date here. Some good news with a mix of epic sarcasm is a mix of tweets I enjoy the most.",
-      "image": "../assets/twitter-logo.png"
+      "image": "../assets/twitter-logo.png",
+      "route": "/twitter-route"
     },
     {
       "name": "Instagram",
       "Description": "I just love to watch good photography. This keeps me upto date with updates from my friend list. Amazing photography is what I love most. I am also a avid foodie and everytime I tune in to my account my appetite shoots up with yummy photos all over.",
-      "image": "../assets/instagram-logo.jpg"
+      "image": "../assets/instagram-logo.jpg",
+      "route": "/insta-route"
     }
   ]
 }
