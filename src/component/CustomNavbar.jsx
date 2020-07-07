@@ -12,9 +12,6 @@ class CustomNavbar extends Component {
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/news">News</Nav.Link>
         </Nav>
-        <Form inline>
-          <Button variant="outline-dark">Cricket!</Button>
-        </Form>
       </Navbar>
     );
   }
