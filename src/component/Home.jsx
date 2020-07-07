@@ -26,7 +26,7 @@ class Home extends Component {
         </div>
         <Container>
           <Jumbotron>
-            <h2>Achievements</h2>
+            <h2>Achievements!</h2>
             <Row className="show-grid text-center">
               <SocialColumn name="LinkedIn" />
               <SocialColumn name="Instagram" />
