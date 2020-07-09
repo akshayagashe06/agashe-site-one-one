@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./component/Home";
 import News from "./component/News";
 import About from "./component/About";
+import Blogs from "./component/Blogs";
 import CustomNavbar from "./component/CustomNavbar";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/news" component={News} />
+        <Route path="/blog" component={Blogs} />
         <Route
           path="/linkedin-route"
           component={() => {
