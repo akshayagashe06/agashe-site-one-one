@@ -21,10 +21,10 @@ class TabbedContent extends Component {
             <Col sm={8}>
               <Tab.Content>
                 <Tab.Pane eventKey="#link1">
-                  <Sonnet />
+                  <p></p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link2">
-                  <Sonnet />
+                  <p></p>
                 </Tab.Pane>
               </Tab.Content>
             </Col>
