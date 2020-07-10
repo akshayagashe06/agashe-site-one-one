@@ -14,10 +14,10 @@ class SocialColumn extends Component {
             <div>
               <Image
                 src={MySocialHandler.image}
-                roundedCircle
+                rounded
                 className="profile-pic"
-                height="200"
-                width="200"
+                height="100"
+                width="100"
               />
               <Link to={MySocialHandler.route}>
                 <h2 class="socialMedia-header-style">{MySocialHandler.name}</h2>
