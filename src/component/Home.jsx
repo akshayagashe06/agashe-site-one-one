@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
 import "./Common-style.css";
 import SocialColumn from "./SocialColumn.jsx";
+import AchievementsTab from "./AchievementsTab.jsx";
 import MyImageSlider from "./MyImageSlider.jsx";
 import Footer from "./Footer.jsx";
 
