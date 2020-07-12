@@ -29,9 +29,9 @@ class Home extends Component {
           <Jumbotron>
             <h2>Achievements!</h2>
             <Row className="show-grid text-center">
-              <SocialColumn name="LinkedIn" />
-              <SocialColumn name="Instagram" />
-              <SocialColumn name="Twitter" />
+              <AchievementsTab name="OCPJP" />
+              <AchievementsTab name="BlackBelt" />
+              <AchievementsTab name="Masters" />
             </Row>
           </Jumbotron>
         </Container>
