@@ -3,17 +3,17 @@
     {
       "name": "OCPJP",
       "Description": "",
-      "image": ""
+      "image": "../assets/ocpjp-logo.png"
     },
     {
       "name": "BlackBelt",
       "Description": "",
-      "image": ""
+      "image": "../assets/karate-logo.png"
     },
     {
       "name": "Masters",
       "Description": "",
-      "image": ""
+      "image": "../assets/grad-cap-logo.png"
     }
   ]
 }
