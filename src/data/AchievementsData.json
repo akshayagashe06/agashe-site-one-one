@@ -8,12 +8,12 @@
     {
       "name": "BlackBelt",
       "Description": "",
-      "image": "../assets/karate-logo.png"
+      "image": "../assets/karate-logo.jpg"
     },
     {
       "name": "Masters",
       "Description": "",
-      "image": "../assets/grad-cap-logo.png"
+      "image": "../assets/grad-cap-logo.jpg"
     }
   ]
 }
