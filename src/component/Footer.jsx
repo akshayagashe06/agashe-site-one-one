@@ -21,6 +21,11 @@ class Footer extends Component {
                   About
                 </Link>
               </h6>
+              <h6>
+                <Link className="footer-link" to="/blog">
+                  Blogs
+                </Link>
+              </h6>
               <ButtonGroup className="mb-2">
                 <Link to="/insta-route">
                   <Button className="insta-button-cls"></Button>
