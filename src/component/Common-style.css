@@ -205,3 +205,7 @@ p {
 label {
   color: white;
 }
+
+.title-centered {
+  text-align: center;
+}

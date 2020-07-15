@@ -21,7 +21,7 @@ class TabbedContent extends Component {
             <Col sm={8}>
               <Tab.Content>
                 <Tab.Pane eventKey="#Link1">
-                  <h2>Project 2</h2>
+                  <h3 className="title-centered">Project 2</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -86,7 +86,7 @@ class TabbedContent extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link2">
-                  <h2>Project 2</h2>
+                  <h3>Project 2</h3>
                   <p>Hey how do you do?</p>
                 </Tab.Pane>
               </Tab.Content>
