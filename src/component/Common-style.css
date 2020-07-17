@@ -209,3 +209,9 @@ label {
 .title-centered {
   text-align: center;
 }
+
+.list-group-item.active {
+  background-color: #f8c51c;
+  border-color: #f8c51c;
+  color: #1a1a1b;
+}
