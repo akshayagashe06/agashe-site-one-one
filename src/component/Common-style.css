@@ -208,6 +208,7 @@ label {
 
 .title-centered {
   text-align: center;
+  text-decoration: underline #f8c51c solid;
 }
 
 .list-group-item.active {
