@@ -20,7 +20,6 @@ class About extends Component {
     return (
       <div>
         <Container>
-          <MyImageSlider />
           <Jumbotron className="jumbotron-sizing">
             <section className="splitter-section-no-border" />
             <h3>Somethings that I like!</h3>
