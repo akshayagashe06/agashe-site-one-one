@@ -12,11 +12,6 @@ class Footer extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <h3 className="footer-title-style">Important Links</h3>
               <h6>
-                <Link className="footer-link" to="/news">
-                  News
-                </Link>
-              </h6>
-              <h6>
                 <Link className="footer-link" to="/about">
                   About
                 </Link>
