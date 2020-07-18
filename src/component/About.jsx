@@ -20,6 +20,13 @@ class About extends Component {
     return (
       <div>
         <Container>
+          <Jumbotron>
+            <h1>About Me!</h1>
+            <p>
+              This section talks about my hobbies, my career and my personal
+              ambition.
+            </p>
+          </Jumbotron>
           <Jumbotron className="jumbotron-sizing">
             <section className="splitter-section-no-border" />
             <h3>Somethings that I like!</h3>
