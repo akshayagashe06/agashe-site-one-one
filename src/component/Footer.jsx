@@ -51,12 +51,12 @@ class Footer extends Component {
               <h3 className="footer-title-style">Helpful links</h3>
               <h6>
                 <Link className="footer-link" to="formula1-route">
-                  Formula One
+                  Git Repo
                 </Link>
               </h6>
               <h6>
                 <Link className="footer-link" to="cricbuzz-route">
-                  Cricket
+                  Resume
                 </Link>
               </h6>
             </Col>
