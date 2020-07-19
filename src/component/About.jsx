@@ -29,7 +29,7 @@ class About extends Component {
           </Jumbotron>
           <Jumbotron className="jumbotron-sizing">
             <section className="splitter-section-no-border" />
-            <h3>Somethings that I like!</h3>
+            <h3>My Hobbies!</h3>
             <PhotoViewer />
             <section className="splitter-section-no-border" />
           </Jumbotron>
