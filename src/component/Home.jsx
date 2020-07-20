@@ -32,6 +32,9 @@ class Home extends Component {
               <AchievementsTab name="OCPJP" />
               <AchievementsTab name="BlackBelt" />
               <AchievementsTab name="Masters" />
+              {/* <SocialColumn name="LinkedIn" />
+              <SocialColumn name="Instagram" />
+              <SocialColumn name="Twitter" /> */}
             </Row>
           </Jumbotron>
         </Container>
