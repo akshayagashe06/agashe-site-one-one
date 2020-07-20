@@ -2,17 +2,17 @@
   "achievementData": [
     {
       "name": "OCPJP",
-      "Description": "",
+      "Description": "Completed certification in Java with 86%. This certification was Oracle certification.",
       "image": "../assets/ocpjp-logo.png"
     },
     {
       "name": "BlackBelt",
-      "Description": "",
+      "Description": "Completed Blackbelt in Taikwando. Won Silver medal in sparring.",
       "image": "../assets/karate-logo.jpg"
     },
     {
       "name": "Masters",
-      "Description": "",
+      "Description": "Masters in Computer science",
       "image": "../assets/grad-cap-logo.jpg"
     }
   ]
