@@ -23,8 +23,9 @@ class About extends Component {
           <Jumbotron>
             <h1>About Me!</h1>
             <p>
-              This section talks about my hobbies, my career and my personal
-              ambition.
+              I am Akshay Agashe and I am a Software Engineer working at NCR
+              Corporation. This section talks about my hobbies, my career and my
+              personal ambition.
             </p>
           </Jumbotron>
           <Jumbotron className="jumbotron-sizing">
