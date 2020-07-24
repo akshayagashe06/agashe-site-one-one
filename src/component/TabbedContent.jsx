@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Col, Row, Tab, ListGroup, Sonnet } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import TextFileReader from "./TextFileReader.jsx";
 
 class TabbedContent extends Component {
   render() {
