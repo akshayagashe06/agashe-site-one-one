@@ -1,10 +1,8 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from "./component/Home";
-import News from "./component/News";
 import About from "./component/About";
 import Blogs from "./component/Blogs";
 import CustomNavbar from "./component/CustomNavbar";
