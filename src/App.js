@@ -12,9 +12,9 @@ function App() {
     <Router>
       <div>
         <CustomNavbar />
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/blog" component={Blogs} />
+        <Route path={process.env.PUBLIC_URL + "/"} component={Home} />
+        <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+        <Route path={process.env.PUBLIC_URL + "/blog"} component={Blogs} />
         <Route
           path="/linkedin-route"
           component={() => {
